@@ -4,7 +4,7 @@ let btn2 = document.getElementById("pause_btn");
 let btn3 = document.getElementById("reset_btn");
 let time = document.getElementById("time");
 
-//add event listener to all buttons
+//adding event listeners to all buttons
 btn1.addEventListener("click" , Start);
 btn2.addEventListener("click" , Pause);
 btn3.addEventListener("click" , Reset);
