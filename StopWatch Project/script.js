@@ -11,14 +11,14 @@ btn3.addEventListener("click" , Reset);
 
 let check = false;
 let check_for_start = false;
-//Defining Start function
+//initializing variables
 let milliSeconds = 0;
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
 let event_value;
 let ms, s , m , h;
-
+//Defining Start function
 function Start() {
     if(check_for_start === true) return;
 
@@ -44,6 +44,7 @@ function Start() {
 
         //-> change to string <-
 
+    
         //for milliseconds
         if(milliSeconds < 10) {
             ms = "00" + milliSeconds;
