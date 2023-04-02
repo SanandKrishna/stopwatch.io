@@ -9,9 +9,9 @@ btn1.addEventListener("click" , Start);
 btn2.addEventListener("click" , Pause);
 btn3.addEventListener("click" , Reset);
 
+//initializing variables
 let check = false;
 let check_for_start = false;
-//initializing variables
 let milliSeconds = 0;
 let seconds = 0;
 let minutes = 0;
