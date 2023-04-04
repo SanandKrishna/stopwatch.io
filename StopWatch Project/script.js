@@ -1,13 +1,13 @@
 // Code is written by Sanand N R
-let btn1 = document.getElementById("start_btn");
-let btn2 = document.getElementById("pause_btn");
-let btn3 = document.getElementById("reset_btn");
+let button1 = document.getElementById("start_btn");
+let button2 = document.getElementById("pause_btn");
+let button3 = document.getElementById("reset_btn");
 let time = document.getElementById("time");
 
 //adding event listeners to all buttons
-btn1.addEventListener("click" , Start);
-btn2.addEventListener("click" , Pause);
-btn3.addEventListener("click" , Reset);
+button1.addEventListener("click" , Start);
+button2.addEventListener("click" , Pause);
+button3.addEventListener("click" , Reset);
 
 //initializing variables
 let check = false;
