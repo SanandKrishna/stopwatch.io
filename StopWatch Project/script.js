@@ -1,4 +1,4 @@
-// Code is written by Sanand N R
+4// Code is written by Sanand N R
 let button1 = document.getElementById("start_btn");
 let button2 = document.getElementById("pause_btn");
 let button3 = document.getElementById("reset_btn");
@@ -33,7 +33,7 @@ function Start() {
         if(seconds === 60) {
             seconds = 0;
             minutes++;
-        }
+        }2
         if(minutes === 60) {
             minutes = 0;
             hours++;
