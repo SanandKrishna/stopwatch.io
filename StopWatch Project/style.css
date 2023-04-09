@@ -104,7 +104,7 @@ body {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* for the responsiveness */
 @media screen and (max-width: 500px){
     #clock {
     height: 40vh;
