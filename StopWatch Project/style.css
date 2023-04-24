@@ -10,7 +10,7 @@ body {
 
 #container {
     height: 75vh;
-    width: 100vw;
+    width: 75vw;
     display: flex;
     align-items: center;
     flex-direction: column;
